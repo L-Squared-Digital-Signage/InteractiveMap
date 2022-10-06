@@ -1,0 +1,169 @@
+
+/* main{
+    min-height: 80vh;
+} */
+.header{
+    display: flex;
+    background:#005796;
+    height:70px;
+    /* padding:10px 20px 0; */
+    padding: 5px 20px;
+    height: 7vh;
+  }
+  
+  .App{
+    min-height: 86vh;
+    height:86vh;
+    background: linear-gradient(180deg, rgba(0,87,150,1) 0%, rgba(8,122,204,1) 52%, rgba(76,164,240,1) 100%);
+  }
+  
+  .container {
+    display: flex;
+    /* border: 10px solid #000; */
+    /* border-bottom: none; */
+    /* border-image-source: linear-gradient(180deg, rgba(0,87,150,1) 0%, rgba(8,122,204,1) 72%, rgba(111,185,234,1) 100%); */
+    /* border-image-source: linear-gradient(180deg, rgba(0,87,150,1) 0%, rgba(8,122,204,1) 72%, rgba(76,164,240,1) 100%); 
+    border-image-slice: 1; */
+    background: #fff;
+    height: 85vh;
+    margin: 0 10px;
+  }
+.center{
+    align-items: center;
+}
+.main {
+    padding: 30px 0;
+}
+
+
+
+
+.footer{
+    display: flex;
+    background: #0060a9;
+    color:#fff;
+    height: 7vh;
+}
+
+.main-link {
+  color: #fff !important;
+  text-decoration: none !important;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 20px;
+  flex: 1;
+  /* border-left: 1px solid #4CA4F0; */
+  border-left: 1px solid #1A72B5;
+  border-right: 1px solid  #1A72B5;
+  text-align: center;
+}
+
+.main-link:hover {
+    /* background: linear-gradient(0deg, rgba(0,87,150,1) 20%, rgba(76,164,240,1) 90%); */
+    background: #4BA3EF;
+    border-left: 1px solid  #1A72B5;
+    border-right: 1px solid  #1A72B5;
+}
+  
+.main-link-active{
+  background:linear-gradient(0deg, rgba(0,87,150,1) 20%, rgba(76,164,240,1) 90%);
+  border: none;
+}
+
+/* Home page */
+.main-content{ margin: 0px 20px;}
+.mBoard{color: white;}
+.mCard{display: block; background-color: white;}
+.leftHeader{align-items: center;}
+.leftlogo{ width: 60px; border-radius: 32px; margin: 20px;}
+.leftTheme{width: 100%;height: 190px;}
+.text1{color: #1a1ad8; font-size: 18px;}
+.text2{font-size: 18px;}
+.text3{ float: right; font-size: 18px;}
+.rightBody{ /* background-color: #0c284c; */ background:radial-gradient(#336cdc, #0c284c); margin-left: 25px; padding-bottom: 30px;}
+.rightHeader{padding-top: 30px; text-align: center;color: white;font-size: 55px; font-family: fantasy;}
+.colHead{text-align: left; color: white; margin: 30px 20px 0px 20px; font-size: 25px; background-color: #06182e; font-family: fantasy;}
+.colBody{ text-align: left; color: #06182e; padding: 16px; margin: 0px 20px; font-size: 18px;  background-color: #FFFFFF;}
+.bdrBottom{ margin-top: 18px; border-bottom: 2px solid #0b51ee;}
+
+/* Message page */
+.mBoardMsg{padding: 30px 20px 10px 20px; color: #3e74db;}
+.selected{color: white; border-radius: 20px; background-color: #102e59;}
+.bottomMCard{ /* display: block; */justify-content: center; margin-top: 16px;background-color: white;border-radius: 20px; height: 40px;}
+.rBottomMCard{ /* display: block; */justify-content: center; margin: 16px 0px 0px 12px; background-color: white;border-radius: 20px;height: 40px;}
+.leftContent{padding: 0px 54px 18px 54px;}
+.leftContentBar{background-color: #b1ddf5;height: 25px;margin: 28px 60px;border-radius: 22px;}
+.circleBar{height: 25px; width: 25px; border-radius: 20px;background-color: #114794;margin: 0px 185px;}
+.leftList{display: flex;text-decoration: none;list-style: none; padding: 0;height: 40px;font-weight: 600;font-size: 18px;}
+.leftList li{width: 157px;text-align: center;padding: 6px; height: 40px;}
+/* .leftList li:hover{color: white;border-radius: 20px; background-color: #102e59;} */
+.allFlr{width: 96px!important;}
+.rightList{    display: flex;text-decoration: none;list-style: none; padding: 0;height: 40px; font-weight: 600;font-size: 18px;}
+.rightList li{ width: 63px;text-align: center; padding: 6px;height: 40px;}
+/* .rightList li:hover{ color: white; border-radius: 20px;background-color: #102e59;} */
+#designBox {
+	background-color: #124791;	position: relative;	padding: 20px;color: white;margin: 4px;height: 308px; /* clip-path:polygon(0 0, 100% 0, 98% 72%, 10% 85%, 15% 93%, 21% 98%, 7% 94%, 0 85%) */
+    /* clip-path:polygon(0 1%, 100% 0, 99% 76%, 0% 100%); */ 
+}
+#designBox::after {content: "";position: absolute;height: 58px;	width: 60px;bottom: -57px;left: 0;background-color: #124791;clip-path: polygon(65% 0, 64% 34%, 71% 67%, 100% 100%, 23% 65%, 5% 35%, 0 0);
+}
+.logoName{margin-left: 143px;}
+.leftlogoMsg{width: 60px;border-radius: 32px;margin: -47px 20px 20px 60px;}
+.rightlogo{ width: 60px; border-radius: 32px;margin: 20px;}
+.rightTheme{height: 190px; float: right;}
+.text2Msg{font-size: 18px;color: #000000;}
+.text3Msg{font-size: 25px;font-weight: 500px;}
+.rightBodyMsg{ background-color: #ffffff; margin-left: 25px; padding-bottom: 30px; height: 70vh;}
+.rightHeaderMsg{padding: 30px 20px 0px 20px; color: blue;}
+.bdrBottomGray{ margin: 18px; border-bottom: 1px solid gray;}
+
+
+/* Food */
+.main-contentFood{
+    margin: 0px 20px; background-image: url("../images/food.png"); background-repeat: no-repeat; background-attachment: fixed; background-position: center;
+    height: 750px;
+}
+
+
+/* workplace */
+.main-contentWork{margin: 0px 20px; background-color: #fff; height: 750px;}
+.coll1{background-color: #fff;}
+.coll2{background-color: #d6e8f7;}
+.headerCell{color: #0076ed;padding: 8px;font-size: 24px;}
+.padBtm{padding-bottom: 10px;}
+.leftThemeWork{width: inherit;}
+.fstName{font-size: 20px;font-weight: 600;}
+.bottomMCardWork{position: relative; margin: -34px 0px 0px 116px;justify-content: center;background-color: white;border: 1px solid black;
+    width: 422px;border-radius: 20px; height: 40px;}
+.midHeader{color: #0076ef;font-size: 20px;font-weight: 500;}
+.midNeme{font-weight: 600;}
+.midPrice{float: right;color: green;}
+.midTime{color: gray;}
+.midOldPrice{float: right;text-decoration: line-through;}
+.card{margin-bottom: 12px;padding: 20px;font-size: 18px;grid-gap: 4px;}
+.availList{font-size: 18px;padding: 8px 8px 20px 8px;}
+.avialHead{font-weight: 600; padding-top: 12px;}
+.availDesc{padding-top: 14px;}
+.scroll{height: 680px;overflow-y: scroll; overflow-x: hidden;}
+
+
+/* Commute */
+.main{margin: 0px 10px;}
+.main-contentCom{margin: 12px 10px;background-color: #fff;height: 685px;}
+.headerCellDesc{padding-left: 8px;color: gray;}
+.bottomMCardCom{position: absolute;margin: 0px 30%;background-color: white;border: 1px solid black;border-radius: 20px;height: 40px;}
+.tableBox{width: 100%;margin: 20px 4px;border-collapse: separate;border-spacing: 0 1em;}
+.trainBtn{text-align: center;background-color: darkblue;color: white; width: 75px}
+.drivingBtnO{text-align: center;background-color: #eb9801;color: #000000;width: 120px}
+.drivingBtnG{text-align: center;background-color: #047504;color: #000000;width: 120px}
+.clrG{background-color: #047504;color: #047504;width: 10px}
+.clrO{background-color: #eb9801;color: #eb9801;width: 10px}
+.clrB{background-color: brown;color: brown;width: 10px}
+.scrollCom{padding-right: 30px;margin-right: -13px;height: 550px;overflow-y: scroll;overflow-x: hidden;}
+
+/* @media (max-width: 600px) {
+    nav, section {
+        width: 100%;
+        height: auto;
+    }
+} */

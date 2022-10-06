@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js" charset="utf-8"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="./styles/style.css"> -->
+    <link rel="stylesheet" href="./styles/custom.css">
+    <link alt="floorPlan" rel="shortcut icon" href=favicon.ico>
+    <title>Floor Plan Path Editor</title>
+</head>
+<body>
+    <div class="header">
+        <img src="./images/intel-logo.jpg" alt="logo"/>
+        <p style="padding: 8px 20px;color: #fff;font-weight:700; margin-bottom: 20px;font-size:24px">PTK1 - FLOOR 7</p>
+      </div>
+      
+      <main class="App">
+        <div class="main">
+            <div class="row main-content">
+              <div class="col-md-4 leftBody">
+                <div>
+                    <div class="row mBoard">
+                        <h1>Message board</h1>
+                    </div>
+                    <div class="row mCard">
+                        <div class="row m-0 leftHeader">
+                            <img class="leftlogo" src="./images/abclogo.png" alt="image">
+                            <h3>PTK smart building kisok</h3>
+                        </div>
+                        <div class="row m-0">
+                            <img class="leftTheme" src="./images/thtme.jfif" alt="img">
+                        </div>
+                        <div class="row d-block m-0 p-3">
+                            <div>
+                                <span class="text1">Shared floors</span>
+                                <span class="text3">#Social</span>
+                                <div class="text2">10</div>
+                            </div>
+                            <div class="pt-3">
+                                <span class="text1">Posted by</span>
+                                <span class="text3">Ending inL 13:00 hr</span>
+                                <div class="text2">Harush Ayelet</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-8 pr-0">
+                <div class="rightBody">
+                    <h1 class="rightHeader">WELCOME HOME-GET TO KNOW PTK1</h1>
+                    <div class="row colHead">
+                        <div class="col">MAINLOBBY</div>
+                        <div class="col">WORKSPACE</div>
+                        <div class="col">LABS</div>
+                        <div class="col">IT SERVICES</div>
+                    </div>
+                    <div class="row colBody">
+                        <div class="col"><i class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;</i>FLOOR 1</div>
+                        <div class="col"><i class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;</i>FLOOR 3,FLOOR 4,FLOOR 5,FLOOR 6,FLOOR 8,FLOOR 9</div>
+                        <div class="col"><i class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;</i>FLOOR 2,FLOOR 7</div>
+                        <div class="col"><i class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;</i>FLOOR 10</div>
+                    </div>
+                    <div class="row colHead">
+                        <div class="col">RESTARANTS</div>
+                        <div class="col">WORKPLACE SERVICES</div>
+                        <div class="col">PARKING</div>
+                        <div class="col">TRANING</div>
+                    </div>
+                    <div class="row colBody">
+                        <div class="col">
+                            <div><i class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;</i>FLOOR 1
+                            </div>
+                            <div class="bdrBottom"></div>
+                            <div>
+                                <div><i class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;</i>MAINDAIN-DAIRY</div>
+                                <div><i class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;</i>HATIKVAT1-MEAT</div>
+                                <div><i class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;</i>TZIPORA-GRILL</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div>
+                                <i class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;</i>FLOOR 10
+                            </div>
+                            <div class="bdrBottom"></div>
+                            <div>
+                                <div><i class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;</i>CLINIC</div>
+                                <div><i class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;</i>COMMUNICATION CENTER</div>
+                                <div><i class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;</i>GAMES</div>
+                                <div><i class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;</i>GYM</div>
+                                <div><i class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;</i>HAIR SALON</div>
+                                <div><i class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;</i>MASSAGE</div>
+                                <div><i class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;</i>NAIL SALON</div>
+                                <div><i class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;</i>MUSIC</div>
+                                <div><i class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;</i>PHYSISOTHERARY</div>
+                            </div>
+                        </div >
+                        <div class="col"><i class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;</i>FLOOR GR,FLOOR 1,FLOOR 2,FLOOR 3</div>
+                        <div class="col"><i class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;</i>FLOOR GR</div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+          
+      </main>
+      
+      <div class="footer">
+        <a href="./index.html" style="background:#4BA3EF;border: none;" class="main-link"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home</a>
+        <a href="./view.html" class="main-link"><i class="fa fa-map-signs" aria-hidden="true"></i>&nbsp;Map & Facilities</a>
+        <a href="./messageBoard.html" class="main-link"><i class="fa fa-comments" aria-hidden="true"></i>&nbsp;Message Board</a>
+        <a href="./food.html" class="main-link"><i class="fa fa-cutlery" aria-hidden="true"></i>&nbsp;Food & Dining</a>
+        <a href="./workplace.html" class="main-link"><i class="fa fa-star" aria-hidden="true"></i>&nbsp;Workplace Services</a>
+        <a href="./commute.html" class="main-link"><i class="fa fa-car" aria-hidden="true"></i>&nbsp;Commute</a>
+      </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

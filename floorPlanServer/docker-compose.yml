@@ -1,0 +1,36 @@
+version: "3.0"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./docker_file/Dockerfile
+    environment:
+      - MONGO_USERNAME=${MONGO_USERNAME}
+      - MONGO_PASSWORD=${MONGO_PASSWORD}
+      - MONGO_DB_NAME=${MONGO_DB_NAME}
+      - DB_HOST=${DB_HOST}
+      - DB_PORT=${DB_PORT}
+    ports:
+      - 8080:8080
+    links:
+      - mongo_db
+    networks:
+      - node-webapp-network
+    restart: always
+
+  mongo_db:
+    image: mongo
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_PASSWORD}
+      - MONGO_INITDB_DATABASE=${MONGO_DB_NAME}
+    ports:
+      - "27017:27017"
+    networks:
+      - node-webapp-network
+    restart: always
+
+
+networks:
+    node-webapp-network:
+      external: true
