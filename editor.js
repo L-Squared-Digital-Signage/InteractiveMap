@@ -67,7 +67,6 @@ container.classList.add("container")
 app.appendChild(container)
 
 //Editor
-
 editor = document.createElement("div")
 editor.classList.add("editor")
 container.appendChild(editor)
@@ -110,7 +109,6 @@ control.appendChild(controlUpper)
 controlDown = document.createElement("div")
 controlDown.classList.add("control-down")
 control.appendChild(controlDown)
-
 
 //SVG
 svg = document.createElementNS("http://www.w3.org/2000/svg", "svg")
